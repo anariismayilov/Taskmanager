@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taskbar</title>
+    <link rel="stylesheet" href="./style1.css">
+    <script src="https://kit.fontawesome.com/0803968b82.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="main">
+        <h1>My Tasks:</h1>
+        <div id="first">C++ <i class="fa-solid fa-x" onclick="this.parentElement.remove()"></i></div>
+        <div id="second"><del>Data Structure</del> <i class="fa-solid fa-x" onclick="this.parentElement.remove()"></i></div>             
+    </div>
+     <div class="button" ><span><input type="text"><button onclick="add()" ><img src="./img/download.png" alt=""></button></span> </div>
+ 
+
+    <script src="main1.js" ></script>
+</body>
+</html>
